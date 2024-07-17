@@ -1,0 +1,240 @@
+body {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    background-color: #1e1e1e;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section {
+    box-sizing: border-box;
+    max-width: 360px;
+    margin: auto;
+}
+
+.content-section_theme_dark {
+    color: #fff;
+    background-color: #131313;
+}
+
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #fee42a;
+}
+
+.header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 24px 20px;
+}
+
+.header__logo {
+    display: block;
+    width: 78px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 12px;
+}
+
+.header__menu-link {
+    color: #f5f5f5;
+}
+
+.header__menu-link_active {
+    text-decoration: none;
+}
+
+.cover {
+    padding: 0 20px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover__title {
+    font-family: 'EB Garamond', serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 20px 38px;
+    gap: 24px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    color: #ccc;
+    gap: 16px;
+}
+
+.intro__title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.intro__date {
+    white-space: nowrap;
+}
+
+.intro__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.intro__text {
+    line-height: 1.35;
+    color: #f5f5f5;
+}
+
+.reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 32px;
+}
+
+.content-section__subtitle {
+    font-family: "EB Garamond", serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.15;
+}
+
+.content-section__introduction {
+    font-size: 20px;
+    line-height: 1.35;
+}
+
+.content-section__list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+    gap: 16px;
+}
+
+.content-section__list-item {
+    line-height: 1.35;
+}
+
+.content-section__list-accent {
+    font-weight: 700;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px 60px;
+    gap: 32px;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.card_theme_bright {
+    color: #131313;
+    background: #fee42a;
+}
+
+.card_theme_dark {
+    color: #f5f5f5;
+    background: #343434;
+}
+
+.card__author {
+    margin-bottom: 8px;
+}
+
+.card__author-photo {
+    max-width: 100px;
+    margin-bottom: 8px;
+}
+
+.card__author-name {
+    line-height: 1.35;
+}
+
+
+.card__title {
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.35;
+    margin-bottom: 8px;
+}
+
+.card__text {
+    line-height: 1.35;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #f5f5f5;
+    border-top: 1px solid #fee42a;
+    gap: 32px;
+}
+
+.footer__copy {
+    line-height: 1.35;
+}
+
+.footer__links {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+
+}
+
+.footer__links a {
+    font-size: 14px;
+    line-height: 1.25;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f5f5f5;
+}
